@@ -8,7 +8,7 @@ export const experiences = [
     responsibilities: [
       "Full stack web development using Laravel and modern frontend technologies",
       "Laravel application development and architecture",
-      "PHP backend development and business logic implementation",
+      "Laaravel backend development and business logic implementation",
       "REST API design and development",
       "MySQL database design, integration and optimization",
       "Admin panel and dashboard development",
