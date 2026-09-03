@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Download, Code2, Database, Layout, Server } from 'lucide-react'
 import profileImg from '../assets/images/About.png'
+import resume from "../assets/MyResume.pdf"
 
 const highlights = [
   { icon: Code2, title: 'Full Stack Development', desc: 'End-to-end web applications' },
@@ -98,17 +99,16 @@ export default function About() {
               ))}
             </div>
 
+
             <a
-              href="/resume.pdf"
+              href={resume}
+              download="Mohd-Sakib-Resume.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass border border-white/10 text-white font-semibold hover:bg-white/5 hover:border-indigo-500/50 transition-all duration-300"
-              onClick={(e) => {
-                e.preventDefault()
-                alert('Resume will be available soon. Please contact me for more details.')
-              }}
             >
               <Download className="w-4 h-4" />
               Download Resume
             </a>
+
           </motion.div>
         </div>
       </div>
