@@ -24,7 +24,7 @@ export const experiences = [
   id: 2,
   company: "Ducat Institute",
   role: "Java Full Stack Developer Intern",
-  duration: "3 Months",
+  duration: "6 Months",
   type: "Internship",
   responsibilities: [
     "Full stack web development using Java and modern frontend technologies",
