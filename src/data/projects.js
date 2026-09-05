@@ -88,7 +88,70 @@ export const projects = [
       "Clear information hierarchy in UI",
       "Modular component design for different user roles"
     ]
-  }
+  },
+
+
+  {
+  id: 4,
+  title: "Velora Sofa Store - Glassmorphism Edition",
+  slug: "sofa-store-glassmorphism",
+
+  description:
+    "A premium modern sofa e-commerce website built with React.js, featuring a sophisticated glassmorphism interface, smooth animations, responsive layouts, and an elegant product browsing experience.",
+
+  category: ["Frontend", "React", "E-Commerce"],
+
+  image: "/projects/sofa.png",
+
+  liveUrl:
+    "https://velora-sofa-website-glassmorphism-e.vercel.app/",
+
+  githubUrl:
+    "https://github.com/ImMohdSakib",
+
+  technologies: [
+    "React.js",
+    "JavaScript",
+    "CSS3",
+    "Framer Motion",
+    "Responsive Design",
+    "Glassmorphism UI"
+  ],
+
+  features: [
+    "Premium sofa product showcase",
+    "Glassmorphism-based modern UI",
+    "Smooth page and component animations",
+    "Product details and browsing experience",
+    "Responsive design for mobile, tablet and desktop",
+    "Modern navigation and interactive UI elements",
+    "Elegant product cards with hover effects",
+    "Clean and user-friendly e-commerce layout"
+  ],
+
+  role: "Frontend Developer",
+
+  overview:
+    "Velora Sofa Store is a premium furniture e-commerce frontend designed to showcase modern sofas through an immersive and visually refined shopping experience. The website combines glassmorphism aesthetics, smooth animations, responsive layouts, and carefully structured product sections to create a high-end furniture brand experience.",
+
+  challenges: [
+    "Creating a premium furniture-focused interface without making the design visually overwhelming",
+    "Implementing glassmorphism effects while maintaining readability and usability",
+    "Creating smooth animations without affecting website performance",
+    "Designing a responsive experience across different screen sizes",
+    "Maintaining consistent spacing, typography and visual hierarchy throughout the website"
+  ],
+
+  solutions: [
+    "Developed a reusable React component structure for scalable UI development",
+    "Used glassmorphism elements with controlled blur, transparency and borders",
+    "Implemented smooth animations and micro-interactions for a more engaging experience",
+    "Built responsive layouts optimized for mobile, tablet and desktop devices",
+    "Applied consistent design patterns, spacing and typography to create a polished visual identity"
+  ]
+}
+
+
 ];
 
 export const getProjectBySlug = (slug) => projects.find(p => p.slug === slug);
